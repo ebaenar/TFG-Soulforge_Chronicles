@@ -1,0 +1,25 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[CHAMPION,Blue]
+LoseText = A good battle indeed!
+Pokemon = FINDIGARL,63
+    Item = SITRUSBERRY
+Pokemon = FARCHANAL,63
+    Item = SITRUSBERRY
+Pokemon = HRASELVE,63
+    Item = SITRUSBERRY
+#-------------------------------
+[GHOST,Paco]
+LoseText = Ahora que hemos luchado, prueba los viales.
+Pokemon = FINDIGARL,63
+    Item = SITRUSBERRY
+Pokemon = FARCHANAL,63
+    Item = SITRUSBERRY
+Pokemon = HRASELVE,63
+    Item = SITRUSBERRY
+Pokemon = FINDIGARL,63
+    Item = SITRUSBERRY
+Pokemon = FARCHANAL,63
+    Item = SITRUSBERRY
+Pokemon = HRASELVE,63
+    Item = SITRUSBERRY

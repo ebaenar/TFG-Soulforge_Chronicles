@@ -1,0 +1,131 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[NORMAL]
+Name = No Muerto
+IconPosition = 0
+Weaknesses = BUG,GHOST,ICE
+Resistances = POISON
+#-------------------------------
+[FIGHTING]
+Name = Fighting
+IconPosition = 1
+Weaknesses = PSYCHIC,WATER
+Resistances = ROCK,DARK
+#-------------------------------
+#Este tipo no se usa
+[FLYING]
+Name = Flying
+IconPosition = 2
+Weaknesses = ROCK,ELECTRIC,ICE
+Resistances = FIGHTING,BUG,GRASS
+Immunities = GROUND
+#-------------------------------
+[POISON]
+Name = Poison
+IconPosition = 3
+Weaknesses = NORMAL
+Resistances = FIGHTING,POISON,GRASS
+#-------------------------------
+#Este tipo no se usa
+[GROUND]
+Name = Ground
+IconPosition = 4
+Weaknesses = WATER,GRASS,ICE
+Resistances = POISON,ROCK
+Immunities = ELECTRIC
+#-------------------------------
+[ROCK]
+Name = Rock
+IconPosition = 5
+Weaknesses = FIGHTING,STEEL,GRASS
+Resistances = POISON,FIRE
+#-------------------------------
+[BUG]
+Name = Hollow
+IconPosition = 6
+Weaknesses = GHOST,POISON,FIRE
+Resistances = DARK
+#-------------------------------
+[GHOST]
+Name = Abisal
+IconPosition = 7
+Weaknesses = PSYCHIC,DARK
+Resistances = WATER
+Immunities = NORMAL,GHOST,BUG,POISON
+#-------------------------------
+[STEEL]
+Name = Steel
+IconPosition = 8
+Weaknesses = FIGHTING,FIRE
+Resistances = ROCK,STEEL,GRASS,ICE,DRAGON
+Immunities = POISON
+#-------------------------------
+[QMARKS]
+Name = ???
+IconPosition = 9
+IsPseudoType = true
+#-------------------------------
+[FIRE]
+Name = Fire
+IconPosition = 10
+IsSpecialType = true
+Weaknesses = ROCK
+Resistances = STEEL,FIRE,GRASS,ICE
+#-------------------------------
+[WATER]
+Name = Magic
+IconPosition = 11
+IsSpecialType = true
+Weaknesses = GHOST,DARK,POISON,ICE
+Resistances = WATER
+#-------------------------------
+[GRASS]
+Name = Grass
+IconPosition = 12
+IsSpecialType = true
+Weaknesses = POISON,FIRE,ICE
+Resistances = GRASS,ELECTRIC
+#-------------------------------
+[ELECTRIC]
+Name = Electric
+IconPosition = 13
+IsSpecialType = true
+Weaknesses = WATER
+Resistances = STEEL,ELECTRIC
+#-------------------------------
+[PSYCHIC]
+Name = Luz
+IconPosition = 14
+IsSpecialType = true
+Weaknesses = BUG,DARK
+Resistances = FIRE,ELECTRIC
+#-------------------------------
+[ICE]
+Name = Ice
+IconPosition = 15
+IsSpecialType = true
+Weaknesses = FIGHTING,ROCK,STEEL,FIRE
+Resistances = ICE
+#-------------------------------
+[DRAGON]
+Name = Dragon
+IconPosition = 16
+IsSpecialType = true
+Weaknesses = ICE,DRAGON,ELECTRIC
+Resistances = FIRE,GRASS
+#-------------------------------
+[DARK]
+Name = Dark
+IconPosition = 17
+IsSpecialType = true
+Weaknesses = FIGHTING,
+Resistances = GHOST,DARK
+#-------------------------------
+#Este tipo no se usa
+[FAIRY]
+Name = Fairy
+IconPosition = 18
+IsSpecialType = true
+Weaknesses = POISON,STEEL
+Resistances = FIGHTING,BUG,DARK
+Immunities = DRAGON

@@ -1,0 +1,15 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[0]
+Name = Lordrania
+Filename = mapRegion0.png
+Point = 14,16,Ruta 0,,,,,
+Point = 14,15,Ruta 0,,,,,
+Point = 14,13,Sunhaven,Liga Lordrania,43,24,31,
+Point = 13,13,Sunhaven,,,,,
+Point = 28,0,Santuario,Casa,,,,
+#-------------------------------
+[1]
+Name = Tiall
+Filename = mapRegion1.png
+Point = 13,16,Here,,,,,

@@ -1,0 +1,38 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[0]
+StartMoney = 3000
+StartItemStorage = POTION
+Home = 32,26,23,8
+StorageCreator = Bill
+WildBattleBGM = Battle wild
+TrainerBattleBGM = Battle trainer
+WildVictoryBGM = Battle victory wild
+TrainerVictoryBGM = Battle victory trainer
+SurfBGM = Surfing
+BicycleBGM = Bicycle
+#-------------------------------
+[1]
+TrainerType = PROTA_Male
+WalkCharset = trainer_PROTA_Male_Overworld
+RunCharset = boy_run
+CycleCharset = boy_bike
+SurfCharset = boy_surf
+FishCharset = boy_fish_offset
+#-------------------------------
+[2]
+TrainerType = PROTA_Girl
+WalkCharset = trainer_PROTA_GIRL_Overworld
+RunCharset = girl_run
+CycleCharset = girl_bike
+SurfCharset = girl_surf
+FishCharset = girl_fish_offset
+#-------------------------------
+[3]
+TrainerType = PROTA_NB
+WalkCharset = trainer_PROTA_NB_Overworld
+RunCharset = girl_run
+CycleCharset = girl_bike
+SurfCharset = girl_surf
+FishCharset = girl_fish_offset
+
