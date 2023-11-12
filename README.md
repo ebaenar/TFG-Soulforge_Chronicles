@@ -1,5 +1,11 @@
 # TFG-Soulforge_Chronicles
- TFG de Videojuegos del Grado de Ingeniería Informática
+ TFG de Videojuegos del Grado de Ingeniería Informática por Eric Baena Ruiz
+
+Intrucciones:
+
+-Descargar la carpeta Soulforge Chronicles
+-Clicar en Game.exe
+-¡Disfrutar!
 
 Versión 1.0.0
 
