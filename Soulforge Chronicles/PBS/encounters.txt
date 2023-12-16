@@ -1,1 +1,39 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[080] # Ruta 1
+Land,25
+    80,TEXTRIX,3,6
+    20,DINASTAE,2,6
+#-------------------------------
+[091] # Ruta 2
+Land,35
+    60,BUNPAN,4,9
+    20,MARGAB,2,7
+#-------------------------------
+[093] # Ruta 3
+Land,30
+    100,AISUTIAL,4,11
+#-------------------------------
+[094] # Cueva Cristal
+Cave,15
+    20,GLIPLI,7,15
+    40,AISUTIAL,6,16
+    40,DINASTAE,7,16
+#-------------------------------
+[096] # Cueva Cristal
+Cave,15
+    40,GLIPLI,7,15
+    10,AISUTIAL,6,16
+    50,DINASTAE,7,16
+#-------------------------------
+[097] # Cueva Cristal
+Cave,15
+    10,GLIPLI,7,15
+    10,AISUTIAL,6,16
+    80,DINASTAE,7,16
+#-------------------------------
+[098] # Cueva Cristal
+Cave,15
+    10,GLIPLI,7,15
+    40,AISUTIAL,6,16
+    50,DINASTAE,7,16

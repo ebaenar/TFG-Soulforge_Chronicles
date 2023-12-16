@@ -4,9 +4,13 @@
 Name = Lordrania
 Filename = mapRegion0.png
 Point = 14,16,Ruta 0,,,,,
-Point = 14,15,Ruta 0,,,,,
 Point = 14,13,Sunhaven,Liga Lordrania,43,24,31,
-Point = 13,13,Sunhaven,,,,,
+Point = 13,15,Ruta 1,,,,,
+Point = 11,13,Ruta 2,,,,,
+Point = 8,11,Ruta 3,,,,,
+Point = 4,11,Pueblo Cristalia,,95,45,22,
+Point = 4,7,Cueva Cristal,,,,,
+Point = 1,5,Ciudad Mistwatch,Prueba de los antiguos,99,66,11,
 Point = 28,0,Santuario,Casa,,,,
 #-------------------------------
 [1]

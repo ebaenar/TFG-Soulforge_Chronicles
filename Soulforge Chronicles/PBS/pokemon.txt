@@ -26,7 +26,7 @@ Evolutions = FINDEN,Level,19
 #-------------------------------
 [FINDEN]
 Name = Finden
-Types = FIRE, ICE
+Types = FIRE,ICE
 BaseStats = 65,70,65,80,70,65
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
@@ -35,7 +35,7 @@ EVs = SPECIAL_ATTACK,1,SPECIAL_DEFENSE,1
 CatchRate = 45
 Happiness = 50
 Abilities = ALIVEFIRE
-Moves = 1,TACKLE,1,GROWL,3,ICEBALL,6,ICESHARD,9,ICYWIND,12,AURORAVEIL,15,HAIL,15,FROSTBREATH,18,TAKEDOWN, 19,WILLOWISP,19,FLAMEWHEEL,22,FLAMECHARGE,26,AURORABEAM,31,FIREFANG,33,GLACIATE,35,FLAMETHROWER
+Moves = 1,TACKLE,1,GROWL,3,ICEBALL,6,ICESHARD,9,ICYWIND,12,AURORAVEIL,15,HAIL,15,FROSTBREATH,18,TAKEDOWN,19,WILLOWISP,19,FLAMEWHEEL,22,FLAMECHARGE,26,AURORABEAM,31,FIREFANG,33,GLACIATE,35,FLAMETHROWER
 EggGroups = Monster,Grass
 HatchSteps = 5120
 Height = 1.0
@@ -50,7 +50,7 @@ Evolutions = FINDIGARL,Level,37
 #-------------------------------
 [FINDIGARL]
 Name = Findigarl
-Types = FIRE, ICE
+Types = FIRE,ICE
 BaseStats = 75,100,70,120,100,70
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
@@ -59,7 +59,7 @@ EVs = SPECIAL_ATTACK,2,SPECIAL_DEFENSE,1
 CatchRate = 45
 Happiness = 50
 Abilities = FROZENDARKFIRE
-Moves = 1,TACKLE,1,GROWL,3,ICEBALL,6,ICESHARD,9,ICYWIND,12,AURORAVEIL,15,HAIL,15,FROSTBREATH,18,TAKEDOWN, 19,WILLOWISP,19,FLAMEWHEEL,22,FLAMECHARGE,26,AURORABEAM,31,FIREFANG,33,GLACIATE,35,FLAMETHROWER,37,ICEBEAM,40,HEATWAVE,45,BLIZZARD,50,MAGMASTORM,60,GLACIALLANCE
+Moves = 1,TACKLE,1,GROWL,3,ICEBALL,6,ICESHARD,9,ICYWIND,12,AURORAVEIL,15,HAIL,15,FROSTBREATH,18,TAKEDOWN,19,WILLOWISP,19,FLAMEWHEEL,22,FLAMECHARGE,26,AURORABEAM,31,FIREFANG,33,GLACIATE,35,FLAMETHROWER,37,ICEBEAM,40,HEATWAVE,45,BLIZZARD,50,MAGMASTORM,60,GLACIALLANCE
 EggGroups = Monster,Grass
 HatchSteps = 5120
 Height = 2.0
@@ -73,7 +73,7 @@ Generation = 1
 #-------------------------------
 [FURNEL]
 Name = Furnel
-Types = NORMAL, PSYCHIC
+Types = NORMAL,PSYCHIC
 BaseStats = 60,60,50,50,50,40
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
@@ -97,7 +97,7 @@ Evolutions = FARGO,Level,16
 #-------------------------------
 [FARGO]
 Name = Fargo
-Types = NORMAL, FIGHTING
+Types = NORMAL,FIGHTING
 BaseStats = 85,80,60,70,70,50
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
@@ -144,7 +144,7 @@ Generation = 1
 #-------------------------------
 [HRAGI]
 Name = Hragi
-Types = STEEL, FIGHTING
+Types = STEEL,FIGHTING
 BaseStats = 50,50,60,60,30,60
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
@@ -168,7 +168,7 @@ Evolutions = HRALEM,Level,17
 #-------------------------------
 [HRALEM]
 Name = Hralem
-Types = STEEL, FIGHTING
+Types = STEEL,FIGHTING
 BaseStats = 70,75,80,80,30,80
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
@@ -192,7 +192,7 @@ Evolutions = HRASELVE,Level,34
 #-------------------------------
 [HRASELVE]
 Name = Hraselve
-Types = FIGHTING, GHOST
+Types = FIGHTING,GHOST
 BaseStats = 90,95,100,100,50,100
 GenderRatio = FemaleOneEighth
 GrowthRate = Parabolic
@@ -211,4 +211,214 @@ Shape = BipedalTail
 Habitat = WatersEdge
 Category = Shellfish
 Pokedex = The waterspouts that protrude from its shell are highly accurate. Their bullets of water can precisely nail tin cans from a distance of over 160 feet.
+Generation = 1
+#-------------------------------
+[MARGAB]
+Name = Margab
+Types = DRAGON
+BaseStats = 55,100,45,70,75,45
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 54
+EVs = ATTACK,1
+CatchRate = 125
+Happiness = 50
+Abilities = GUTS
+Moves = 1,TACKLE,1,GROWL,3,SCALESHOT,7,TWISTER,12,POISONFANG,16,DRAGONTAIL,22,TOXIC,27,ACIDARMOR
+EggGroups = Monster,Grass
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Green
+Shape = Quadruped
+Habitat = Grassland
+Category = Seed
+Pokedex = Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.
+Generation = 1
+Evolutions = MARGDLE,Level,30
+#-------------------------------
+[MARGDLE]
+Name = Margdle
+Types = DRAGON,POISON
+BaseStats = 70,130,65,100,90,65
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 90
+EVs = ATTACK,3
+CatchRate = 100
+Happiness = 50
+Abilities = GUTS
+Moves = 1,TACKLE,1,GROWL,3,SCALESHOT,7,TWISTER,12,POISONFANG,16,DRAGONTAIL,22,TOXIC,27,ACIDARMOR,33,THUNDERFANG,39,DRAGONCLAW,45,POISONJAB,51,OUTRAGE,60,GUNKSHOT
+EggGroups = Monster,Grass
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Green
+Shape = Quadruped
+Habitat = Grassland
+Category = Seed
+Pokedex = Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.
+Generation = 1
+#-------------------------------
+[AISUTIAL]
+Name = Aisutial
+Types = ICE
+BaseStats = 70,130,65,100,90,65
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 66
+EVs = SPECIAL_ATTACK,1
+CatchRate = 170
+Happiness = 50
+Abilities = LIGHTNINGROD
+Moves = 1,TACKLE,1,GROWL,3,ICEBALL,13,HAIL,24,EXTREMESPEED,33,ICEHAMMER,50,BLIZZARD
+EggGroups = Monster,Grass
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Green
+Shape = Quadruped
+Habitat = Grassland
+Category = Seed
+Pokedex = Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.
+Generation = 1
+#-------------------------------
+[TEXTRIX]
+Name = Textrix
+Types = BUG,POISON
+BaseStats = 50,60,40,40,40,40
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 40
+EVs = SPEED,1
+CatchRate = 200
+Happiness = 50
+Abilities = SWARM
+Moves = 1,POISONSTING,1,STRINGSHOT,5,ABSORB,8,INFESTATION,12,SCARYFACE,15,NIGHTSHADE,19,SHADOWSNEAK,22,FURYSWIPES,26,SUCKERPUNCH,29,LEECHLIFE,33,AGILITY,36,PINMISSILE,40,PSYCHIC,43,POISONJAB,47,CROSSPOISON,50,STICKYWEB,54,TOXICTHREAD
+EggGroups = Monster,Grass
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Green
+Shape = Quadruped
+Habitat = Grassland
+Category = Seed
+Pokedex = Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.
+Generation = 1
+Evolutions = APHONORIX,Level,20
+#-------------------------------
+[APHONORIX]
+Name = Aphonorix
+Types = BUG,POISON
+BaseStats = 70,100,70,80,60,60
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 100
+EVs = SPEED,3
+CatchRate = 150
+Happiness = 50
+Abilities = SWARM
+Moves = 1,SWORDSDANCE,1,FOCUSENERGY,1,VENOMDRENCH,1,FELLSTINGER,1,BUGBITE,1,POISONSTING,1,STRINGSHOT,1,ABSORB,5,ABSORB,8,INFESTATION,12,SCARYFACE,15,NIGHTSHADE,19,SHADOWSNEAK,23,FURYSWIPES,28,SUCKERPUNCH,32,LEECHLIFE,37,AGILITY,41,PINMISSILE,46,PSYCHIC,50,POISONJAB,55,CROSSPOISON,58,STICKYWEB,63,TOXICTHREAD
+EggGroups = Monster,Grass
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Green
+Shape = Quadruped
+Habitat = Grassland
+Category = Seed
+Pokedex = Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.
+Generation = 1
+#-------------------------------
+[GLIPLI]
+Name = Glipli
+Types = WATER
+BaseStats = 65,40,50,30,105,60
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 45
+EVs = SPECIAL_DEFENSE,1
+CatchRate = 140
+Happiness = 50
+Abilities = SHELLARMOR
+Moves = 1,WATERGUN,3,CONFUSERAY,6,WATERPULSE,12,AQUARING,20,FLAIL,27,TAKEDOWN
+EggGroups = Monster,Grass
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Green
+Shape = Quadruped
+Habitat = Grassland
+Category = Seed
+Pokedex = Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.
+Generation = 1
+Evolutions = GESLULI,Level,28
+#-------------------------------
+[GESLULI]
+Name = Gesluli
+Types = WATER,PSYCHIC
+BaseStats = 110,50,70,60,120,80
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 80
+EVs = SPECIAL_DEFENSE,3
+CatchRate = 90
+Happiness = 50
+Abilities = SHELLARMOR
+Moves = 1,WATERGUN,1,SUPERSONIC,5,CONFUSERAY,6,WATERPULSE,12,AQUARING,20,FLAIL,27,TAKEDOWN,34,HYDROPUMP,40,SURF,42,PSYCHIC
+EggGroups = Monster,Grass
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Green
+Shape = Quadruped
+Habitat = Grassland
+Category = Seed
+Pokedex = Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.
+Generation = 1
+#-------------------------------
+[DINASTAE]
+Name = Dinastae
+Types = ROCK
+BaseStats = 80,125,75,85,40,95
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 170
+EVs = ATTACK,2
+CatchRate = 160
+Happiness = 50
+Abilities = PUREPOWER
+Moves = 1,SLAM,1,STONEEDGE,1,HAMMERARM,1,WOODHAMMER,1,FLAIL,10,BLOCK,15,MIMIC,20,ROCKTOMB,25,TEARFULLOOK,29,SUCKERPUNCH,34,ROCKSLIDE,40,COUNTER,44,DOUBLEEDGE,48,HEADSMASH
+EggGroups = Monster,Grass
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Green
+Shape = Quadruped
+Habitat = Grassland
+Category = Seed
+Pokedex = Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.
+Generation = 1
+#-------------------------------
+[BUNPAN]
+Name = Bunpan
+Types = NORMAL
+BaseStats = 55,50,60,90,100,60
+GenderRatio = FemaleOneEighth
+GrowthRate = Parabolic
+BaseExp = 150
+EVs = DEFENSE,2
+CatchRate = 133
+Happiness = 50
+Abilities = STRONGJAW
+Moves = 1,CRUNCH,1,BITE,1,ASTONISH,1,POUND,5,ECHOEDVOICE,7,HOWL,15,ICEFANG,15,FIREFANG,15,THUNDERFANG,23,STOMP,29,ROAR,36,SUPERSONIC,45,UPROAR,54,HYPERVOICE,63,BOOMBURST,
+EggGroups = Monster,Grass
+HatchSteps = 5120
+Height = 0.7
+Weight = 6.9
+Color = Green
+Shape = Quadruped
+Habitat = Grassland
+Category = Seed
+Pokedex = Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.
 Generation = 1

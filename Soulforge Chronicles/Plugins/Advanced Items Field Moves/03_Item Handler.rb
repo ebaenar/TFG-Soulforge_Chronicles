@@ -1210,7 +1210,7 @@ if Item_Fly[:active]
     return false if $game_temp.fly_destination.nil?
     if !pbHiddenMoveAnimation(nil)
       item_name = GameData::Item.get(Item_Fly[:internal_name]).name
-      pbMessage(_INTL("{1} used {2}!", $Trainer.name, item_name))
+      pbMessage(_INTL("{1} usó {2}!", $Trainer.name, item_name))
     end
     $stats.fly_count += 1
     pbFadeOutIn {
@@ -1235,7 +1235,7 @@ if Item_Fly[:active]
     end
     if !$game_map.metadata&.outdoor_map
       item_name = GameData::Item.get(Item_Fly[:internal_name]).name
-      pbMessage(_INTL("You can't use the {1} when you are inside.", item_name))
+      pbMessage(_INTL("No puedes usar el {1} en interiores.", item_name))
       next 0
     end
     next 2
@@ -1248,7 +1248,7 @@ if Item_Fly[:active]
     end
     if !$game_map.metadata&.outdoor_map
       item_name = GameData::Item.get(Item_Fly[:internal_name]).name
-      pbMessage(_INTL("You can't use the {1} when you are inside.", item_name))
+      pbMessage(_INTL("No puedes usar el {1} en interiores.", item_name))
       next 0
     end
     aiFly

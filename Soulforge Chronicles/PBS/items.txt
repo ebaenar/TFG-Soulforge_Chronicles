@@ -1,14 +1,5 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[LIFEGEM]
-Name = Gema de vida
-NamePlural = Gemas de vida
-Pocket = 2
-Price = 200
-BattleUse = OnPokemon
-Flags = Fling_30
-Description = Gema de vida que regenera 20 de vida del monstruo por 3 turnos.
-#-------------------------------
 [VIAL]
 Name = Vial
 NamePlural = Viales
@@ -44,31 +35,31 @@ Flags = KeyItem,Fling_30
 Description = Fragmentos de la bestia legendaria Invax. Si se reunen todos, es posible que Invax aparezca de nuevo.
 #-------------------------------
 [REPEL]
-Name = Repel
-NamePlural = Repels
+Name = Repelente
+NamePlural = Repelentes
 Pocket = 1
 Price = 400
 FieldUse = Direct
 Flags = Repel,Fling_30
-Description = An item that prevents weak wild Pokémon from appearing for 100 steps after its use.
+Description = Objeto que impide que aparezcan monstruos en 100 pasos.
 #-------------------------------
 [SUPERREPEL]
-Name = Super Repel
-NamePlural = Super Repels
+Name = Super Repelente
+NamePlural = Super Repelentes
 Pocket = 1
 Price = 700
 FieldUse = Direct
 Flags = Repel,Fling_30
-Description = An item that prevents weak wild Pokémon from appearing for 200 steps after its use.
+Description = Objeto que impide que aparezcan monstruos en 200 pasos.
 #-------------------------------
 [MAXREPEL]
-Name = Max Repel
-NamePlural = Max Repels
+Name = Máx. Repelente
+NamePlural = Máx. Repelentes
 Pocket = 1
 Price = 900
 FieldUse = Direct
 Flags = Repel,Fling_30
-Description = An item that prevents weak wild Pokémon from appearing for 250 steps after its use.
+Description = Objeto que impide que aparezcan monstruos en 250 pasos.
 #-------------------------------
 [BLACKFLUTE]
 Name = Black Flute
@@ -2748,24 +2739,24 @@ Flags = Fling_30
 Description = Medicina que cura 20 puntos de vida de un monstruo.
 #-------------------------------
 [SUPERPOTION]
-Name = Super Potion
-NamePlural = Super Potions
+Name = Super Poción
+NamePlural = Super Pociones
 Pocket = 2
 Price = 700
 FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Fling_30
-Description = A spray-type medicine for treating wounds. It can be used to restore 60 HP to a single Pokémon.
+Description = Medicina que cura 60 puntos de vida de un monstruo.
 #-------------------------------
 [HYPERPOTION]
-Name = Hyper Potion
-NamePlural = Hyper Potions
+Name = Super Poción+
+NamePlural = Super Pociones+
 Pocket = 2
 Price = 1500
 FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Fling_30
-Description = A spray-type medicine for treating wounds. It can be used to restore 120 HP to a single Pokémon.
+Description = Medicina que cura 120 puntos de vida de un monstruo.
 #-------------------------------
 [MAXPOTION]
 Name = Max Potion
@@ -2797,54 +2788,54 @@ Flags = Fling_30
 Description = It revives all fainted Pokémon. In doing so, it also fully restores their HP.
 #-------------------------------
 [AWAKENING]
-Name = Awakening
-NamePlural = Awakenings
+Name = Despertar
+NamePlural = Despertares
 Pocket = 2
 Price = 200
 FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Fling_30
-Description = A spray-type medicine. It awakens a Pokémon from the clutches of sleep.
+Description = Medicina que cura el estado de dormir de cualquier monstruo.
 #-------------------------------
 [ANTIDOTE]
-Name = Antidote
-NamePlural = Antidotes
+Name = Antídoto
+NamePlural = Antídotos
 Pocket = 2
 Price = 200
 FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Fling_30
-Description = A spray-type medicine. It lifts the effect of poison from one Pokémon.
+Description = Medicina que cura el estado de envenenado de cualquier monstruo.
 #-------------------------------
 [BURNHEAL]
-Name = Burn Heal
-NamePlural = Burn Heals
+Name = Antiquemar
+NamePlural = Antiquemares
 Pocket = 2
 Price = 200
 FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Fling_30
-Description = A spray-type medicine. It heals a single Pokémon that is suffering from a burn.
+Description = Medicina que cura el estado de quemado de cualquier monstruo.
 #-------------------------------
 [PARALYZEHEAL]
-Name = Paralyze Heal
-NamePlural = Paralyze Heals
+Name = Antiparalizante
+NamePlural = Antiparalizantes
 Pocket = 2
 Price = 200
 FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Fling_30
-Description = A spray-type medicine. It eliminates paralysis from a single Pokémon.
+Description = Medicina que cura el estado de parálisis de cualquier monstruo.
 #-------------------------------
 [ICEHEAL]
-Name = Ice Heal
-NamePlural = Ice Heals
+Name = Anticongelante
+NamePlural = Anticongelantes
 Pocket = 2
 Price = 200
 FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Fling_30
-Description = A spray-type medicine. It defrosts a Pokémon that has been frozen solid.
+Description = Medicina que cura el estado de congelación de cualquier monstruo.
 #-------------------------------
 [FULLHEAL]
 Name = Full Heal
@@ -2937,14 +2928,14 @@ Flags = Fling_30
 Description = The Alola region's specialty--fried bread. It can be used once to heal all the status conditions of a Pokémon.
 #-------------------------------
 [REVIVE]
-Name = Revive
-NamePlural = Revives
+Name = Resurrección
+NamePlural = Resurrecciones
 Pocket = 2
 Price = 2000
 FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Fling_30
-Description = A medicine that revives a fainted Pokémon. It restores half the Pokémon's maximum HP.
+Description = Medicina que revive a un monstruo y cura la mitad de su vida.
 #-------------------------------
 [MAXREVIVE]
 Name = Max Revive
@@ -3511,13 +3502,13 @@ Flags = PokeBall
 Description = An ultra-performance Ball that provides a higher Pokémon catch rate than a Great Ball.
 #-------------------------------
 [GREATBALL]
-Name = Great Ball
-NamePlural = Great Balls
+Name = Frasco Capturador+
+NamePlural = Frascos Capturadores+
 Pocket = 3
 Price = 600
 BattleUse = OnFoe
 Flags = PokeBall
-Description = A good, high-performance Ball that provides a higher Pokémon catch rate than a standard Poké Ball.
+Description = Botella con un líquido en su interior. Sirve para contener y atrapar a un monstruo. Usan mejor líquido que los Frascos Capturadores.
 #-------------------------------
 [POKEBALL]
 Name = Frasco Capturador
@@ -3601,14 +3592,14 @@ Flags = PokeBall
 Description = A comfortable Poké Ball that makes a caught wild Pokémon quickly grow friendly.
 #-------------------------------
 [PREMIERBALL]
-Name = Premier Ball
-NamePlural = Premier Balls
+Name = Frasco Premium
+NamePlural = Frascos Premium
 Pocket = 3
 Price = 200
 SellPrice = 10
 BattleUse = OnFoe
 Flags = PokeBall
-Description = A somewhat rare Poké Ball that has been specially made to commemorate an event of some sort.
+Description = Frasco que se usa para conmemorar algún evento.
 #-------------------------------
 [DUSKBALL]
 Name = Dusk Ball
@@ -5853,13 +5844,13 @@ Flags = KeyItem
 Description = A tool that can search out Pokémon that are hiding in grass. Its battery is recharged as you walk.
 #-------------------------------
 [TOWNMAP]
-Name = Town Map
-NamePlural = Town Maps
+Name = Mapa
+NamePlural = Mapas
 Pocket = 8
 Price = 0
 FieldUse = Direct
 Flags = KeyItem
-Description = A very convenient map that can be viewed anytime. It even shows your present location.
+Description = Mapa de la región de Lordrania. Bastante útil para guiarte en caso de perderte.
 #-------------------------------
 [ESCAPEROPE]
 Name = Escape Rope
@@ -6127,10 +6118,10 @@ Flags = KeyItem
 Description = A faded sea chart that shows the way to a certain island.
 #-------------------------------
 [FLYITEM]
-Name = Frag. Alma última señora
-NamePlural = Frag. Alma última señora
+Name = Frag. Alma 
+NamePlural = Frag. Alma
 Pocket = 8
 Price = 0
 FieldUse = Direct
 Flags = KeyItem
-Description = Fragmento del Alma de la última señora de ceniza. Útil para teleportarte entre hogueras de la región de Lordrania.
+Description = Fragmento del Alma de la última señora de ceniza. Útil para teleportarte entre hogueras.

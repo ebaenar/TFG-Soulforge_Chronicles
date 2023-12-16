@@ -1,14 +1,5 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[CHAMPION,Blue]
-LoseText = A good battle indeed!
-Pokemon = FINDIGARL,63
-    Item = SITRUSBERRY
-Pokemon = FARCHANAL,63
-    Item = SITRUSBERRY
-Pokemon = HRASELVE,63
-    Item = SITRUSBERRY
-#-------------------------------
 [GHOST,Paco]
 LoseText = Ahora que hemos luchado, prueba los viales.
 Pokemon = FINDIGARL,63
@@ -23,3 +14,95 @@ Pokemon = FARCHANAL,63
     Item = SITRUSBERRY
 Pokemon = HRASELVE,63
     Item = SITRUSBERRY
+#-------------------------------
+[JEFE,Fran]
+LoseText = Vaya vaya... No te desenvuelves mal.
+Pokemon = GLIPLI,16
+Pokemon = MARGAB,17
+Pokemon = BUNPAN,19
+#-------------------------------
+[SKI,Julián]
+LoseText = ¡Aquí hace un frío del carajo!
+Pokemon = AISUTIAL,16
+#-------------------------------
+[SKIF,Lucia]
+LoseText = ¿Puedes ayudarme a salir de aquí?
+Pokemon = BUNPAN,15
+Pokemon = TEXTRIX,16
+#-------------------------------
+[HIKER,Manolo]
+LoseText = Espero que no estes usando un zarcillo.
+Pokemon = DINASTAE,18
+#-------------------------------
+[HIKER,César]
+LoseText = Esta cueva tiene unos cristales bonitos.
+Pokemon = MARGAB,16
+Pokemon = GLIPLI,16
+#-------------------------------
+[COOLTRAINER_M,Mistwatch]
+LoseText = No...
+Pokemon = APHONORIX,20
+Pokemon = MARGAB,19
+Pokemon = FARGO,20
+#-------------------------------
+[PAINTER,Alberto]
+LoseText = Has arruinado mis pinturas.
+Pokemon = TEXTRIX,5
+Pokemon = MARGAB,3
+#-------------------------------
+[JUGGLER,Alejandro]
+LoseText = Mis bolas, donde están mis bolas...
+Pokemon = DINASTAE,7
+Pokemon = TEXTRIX,7
+#-------------------------------
+[PICNICKER_M,Javier]
+LoseText = Nooo, mi monstruo recién capturado...
+Pokemon = BUNPAN,10
+#-------------------------------
+[PICNICKER_M,Raul]
+LoseText = Ay...
+Pokemon = TEXTRIX,9
+Pokemon = TEXTRIX,10
+#-------------------------------
+[PICNICKER_M,Daniel]
+LoseText = He estado cerca de ganarte.
+Pokemon = AISUTIAL,12
+#-------------------------------
+[PICNICKER,Marina]
+LoseText = ¡Oye! No te he hecho nada.
+Pokemon = GLIPLI,11
+#-------------------------------
+[PICNICKER,Claudia]
+LoseText = Mi monstruito...
+Pokemon = MARGAB,12
+#-------------------------------
+[PICNICKER,Aina]
+LoseText = En fin...
+Pokemon = TEXTRIX,10
+Pokemon = DINASTAE,11
+#-------------------------------
+[BEAUTY,Alicia]
+LoseText = Ganarme no ha sido muy slay de tu parte.
+Pokemon = GLIPLI,13
+Pokemon = BUNPAN,14
+#-------------------------------
+[HIKER,Mike]
+LoseText = ¡Qué poderío!
+Pokemon = DINASTAE,14
+Pokemon = DINASTAE,15
+#-------------------------------
+[HIKER,Marcos]
+LoseText = Esta cueva... No está mal.
+Pokemon = MARGDLE,12
+#-------------------------------
+[BURGLAR,Emilio]
+LoseText = ...
+Pokemon = FINDI,17
+#-------------------------------
+[BURGLAR,Emilio,1]
+LoseText = ...
+Pokemon = FURNEL,17
+#-------------------------------
+[BURGLAR,Emilio,2]
+LoseText = ...
+Pokemon = HRAGI,17

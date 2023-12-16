@@ -153,8 +153,9 @@ MapSize = 2,1101
 #-------------------------------
 [032]   # Santuario
 Name = Santuario
-Outdoor = true
+Outdoor = false
 ShowArea = true
+MapPosition = 0,28,0
 DarkMap = false
 SafariMap = false
 #-------------------------------
@@ -210,6 +211,16 @@ ShowArea = true
 BicycleAlways = true
 MapPosition = 0,11,7
 MapSize = 1,111
+#-------------------------------
+[042]   # Ruta 0
+Name = Ruta 0
+Outdoor = true
+MapPosition = 0,14,16
+#-------------------------------
+[043]   # Sunhaven
+Name = Sunhaven
+Outdoor = true
+MapPosition = 0,14,13
 #-------------------------------
 [044]   # Route 6
 Name = Route 6
@@ -402,3 +413,58 @@ Name = Tiall Region
 Outdoor = true
 MapPosition = 1,13,16
 BattleBack = city
+#-------------------------------
+[080]   # Ruta 1
+Name = Ruta 1
+Outdoor = true
+MapPosition = 0,13,15
+#-------------------------------
+[091]   # Ruta 2
+Name = Ruta 2
+Outdoor = true
+MapPosition = 0,11,13
+#-------------------------------
+[093]   # Ruta 3
+Name = Ruta 3
+Outdoor = true
+ShowArea = false
+MapPosition = 0,8,11
+#-------------------------------
+[094]   # Cueva Cristal
+Name = Cueva Cristal
+Outdoor = false
+MapPosition = 0,4,7
+#-------------------------------
+[095]   # Pueblo Cristalia
+Name = Pueblo Cristalia
+Outdoor = true
+ShowArea = true
+MapPosition = 0,4,11
+#-------------------------------
+[096]   # Cueva Cristal
+Name = Cueva Cristal
+Outdoor = false
+MapPosition = 0,4,7
+#-------------------------------
+[097]   # Cueva Cristal
+Name = Cueva Cristal
+Outdoor = false
+MapPosition = 0,4,7
+DarkMap = true
+#-------------------------------
+[098]   # Cueva Cristal
+Name = Cueva Cristal
+Outdoor = false
+MapPosition = 0,4,7
+#-------------------------------
+[099]   # Ciudad Mistwatch
+Name = Ciudad Mistwatch
+Outdoor = true
+ShowArea = true
+Weather = Snow,100
+MapPosition = 0,1,5
+#-------------------------------
+[100]   # Prueba Mistwatch
+Name = Prueba Mistwatch
+MapPosition = 0,1,5
+TrainerBattleBGM = BattleJefePruebaMistwatch.ogg

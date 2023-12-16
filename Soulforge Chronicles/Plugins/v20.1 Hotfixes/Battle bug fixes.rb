@@ -61,25 +61,25 @@ module Battle::CatchAndStoreMixin
     # Nickname the Pokémon (unless it's a Shadow Pokémon)
     if !pkmn.shadowPokemon?
       if $PokemonSystem.givenicknames == 0 &&
-         pbDisplayConfirm(_INTL("Would you like to give a nickname to {1}?", pkmn.name))
-        nickname = @scene.pbNameEntry(_INTL("{1}'s nickname?", pkmn.speciesName), pkmn)
+         pbDisplayConfirm(_INTL("¿Quieres ponerle un mote a {1}?", pkmn.name))
+        nickname = @scene.pbNameEntry(_INTL("¿El mote de {1}?", pkmn.speciesName), pkmn)
         pkmn.name = nickname
       end
     end
     # Store the Pokémon
     if pbPlayer.party_full? && (@sendToBoxes == 0 || @sendToBoxes == 2)   # Ask/must add to party
-      cmds = [_INTL("Add to your party"),
-              _INTL("Send to a Box"),
-              _INTL("See {1}'s summary", pkmn.name),
-              _INTL("Check party")]
+      cmds = [_INTL("Añadir al equipo"),
+              _INTL("Mandar al almacén"),
+              _INTL("Ver estadísticas de {1}", pkmn.name),
+              _INTL("Ver equipo")]
       cmds.delete_at(1) if @sendToBoxes == 2
       loop do
-        cmd = pbShowCommands(_INTL("Where do you want to send {1} to?", pkmn.name), cmds, 99)
+        cmd = pbShowCommands(_INTL("¿Qué hacer con {1}?", pkmn.name), cmds, 99)
         break if cmd == 99   # Cancelling = send to a Box
         cmd += 1 if cmd >= 1 && @sendToBoxes == 2
         case cmd
         when 0   # Add to your party
-          pbDisplay(_INTL("Choose a Pokémon in your party to send to your Boxes."))
+          pbDisplay(_INTL("Selecciona un monstruo para mandarlo al almacén."))
           party_index = -1
           @scene.pbPartyScreen(0, (@sendToBoxes != 2), 1) { |idxParty, _partyScene|
             party_index = idxParty
@@ -101,7 +101,7 @@ module Battle::CatchAndStoreMixin
           stored_box = @peer.pbStorePokemon(pbPlayer, send_pkmn)
           pbPlayer.party.delete_at(party_index)
           box_name = @peer.pbBoxName(stored_box)
-          pbDisplayPaused(_INTL("{1} has been sent to Box \"{2}\".", send_pkmn.name, box_name))
+          pbDisplayPaused(_INTL("Has mandado a {1} a la \"{2}\" del almacén.", send_pkmn.name, box_name))
           # Rearrange all remembered properties of party Pokémon
           (party_index...party_size).each do |idx|
             if idx < party_size - 1
@@ -133,13 +133,13 @@ module Battle::CatchAndStoreMixin
     # Store as normal (add to party if there's space, or send to a Box if not)
     stored_box = @peer.pbStorePokemon(pbPlayer, pkmn)
     if stored_box < 0
-      pbDisplayPaused(_INTL("{1} has been added to your party.", pkmn.name))
+      pbDisplayPaused(_INTL("Has añadido a {1} al equipo.", pkmn.name))
       @initialItems[0][pbPlayer.party.length - 1] = pkmn.item_id if @initialItems
       return
     end
     # Messages saying the Pokémon was stored in a PC box
     box_name = @peer.pbBoxName(stored_box)
-    pbDisplayPaused(_INTL("{1} has been sent to Box \"{2}\"!", pkmn.name, box_name))
+    pbDisplayPaused(_INTL("Has mandado a {1} a la \"{2}\" del almacén.", pkmn.name, box_name))
   end
 end
 
@@ -302,7 +302,7 @@ class Battle::Battler
     if newStatus == :SLEEP && !(hasActiveAbility?(:SOUNDPROOF) && !@battle.moldBreaker)
       @battle.allBattlers.each do |b|
         next if b.effects[PBEffects::Uproar] == 0
-        @battle.pbDisplay(_INTL("But the uproar kept {1} awake!", pbThis(true))) if showMessages
+        @battle.pbDisplay(_INTL("¡El alboroto mantuvo a {1} despierto!", pbThis(true))) if showMessages
         return false
       end
     end
@@ -324,7 +324,7 @@ class Battle::Battler
       hasImmuneType |= pbHasType?(:ICE)
     end
     if hasImmuneType
-      @battle.pbDisplay(_INTL("It doesn't affect {1}...", pbThis(true))) if showMessages
+      @battle.pbDisplay(_INTL("No afecta a {1}...", pbThis(true))) if showMessages
       return false
     end
     # Ability immunity
@@ -456,7 +456,7 @@ class Battle::Battler
       @battle.pbHideAbilitySplash(target)
       pbItemHPHealCheck
     else
-      msg = _INTL("{1} had its energy drained!", target.pbThis) if nil_or_empty?(msg)
+      msg = _INTL("¡{1} absorbió esencia vital del enemigo!", target.pbThis) if nil_or_empty?(msg)
       @battle.pbDisplay(msg)
       if canHeal?
         amt = (amt * 1.3).floor if hasActiveItem?(:BIGROOT)
@@ -488,7 +488,7 @@ class Battle::Move::HealUserByTargetAttackLowerTargetAttack1 < Battle::Move
     elsif user.canHeal?
       healAmt = (healAmt * 1.3).floor if user.hasActiveItem?(:BIGROOT)
       user.pbRecoverHP(healAmt)
-      @battle.pbDisplay(_INTL("{1}'s HP was restored.", user.pbThis))
+      @battle.pbDisplay(_INTL("¡{1} se ha curado!", user.pbThis))
     end
   end
 end

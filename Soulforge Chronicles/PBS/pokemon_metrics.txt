@@ -2,54 +2,102 @@
 #-------------------------------
 [FINDI]
 BackSprite = -4,0
-FrontSprite = -1,26
+FrontSprite = -1,14
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [FINDEN]
 BackSprite = -9,0
-FrontSprite = 2,22
+FrontSprite = 2,4
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [FINDIGARL]
 BackSprite = 1,0
-FrontSprite = 2,11
+FrontSprite = 2,6
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
 [FURNEL]
-BackSprite = -6,0
-FrontSprite = 4,19
+BackSprite = -6,25
+FrontSprite = 4,12
 ShadowX = 0
 ShadowSize = 1
 #-------------------------------
 [FARGO]
-BackSprite = -3,0
-FrontSprite = -2,18
+BackSprite = -3,11
+FrontSprite = -2,8
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [FARCHANAL]
-BackSprite = -2,0
+BackSprite = -2,17
 FrontSprite = 0,3
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
 [HRAGI]
-BackSprite = -3,0
-FrontSprite = 2,20
+BackSprite = -3,-2
+FrontSprite = 2,8
 ShadowX = 0
 ShadowSize = 1
 #-------------------------------
 [HRALEM]
-BackSprite = -2,0
-FrontSprite = -4,16
+BackSprite = -2,2
+FrontSprite = 0,8
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [HRASELVE]
-BackSprite = -3,0
-FrontSprite = 0,13
+BackSprite = -4,0
+FrontSprite = -5,2
 ShadowX = 0
 ShadowSize = 3
+#-------------------------------
+[TEXTRIX]
+BackSprite = 0,0
+FrontSprite = 0,26
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[AISUTIAL]
+BackSprite = 0,0
+FrontSprite = 0,8
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[APHONORIX]
+BackSprite = 0,0
+FrontSprite = 0,18
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[BUNPAN]
+BackSprite = 0,0
+FrontSprite = 0,14
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[DINASTAE]
+BackSprite = 0,0
+FrontSprite = 0,12
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[GESLULI]
+BackSprite = 0,0
+FrontSprite = 0,14
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[GLIPLI]
+BackSprite = 0,0
+FrontSprite = 0,9
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[MARGAB]
+BackSprite = 0,0
+FrontSprite = 0,25
+ShadowX = 0
+ShadowSize = 2
