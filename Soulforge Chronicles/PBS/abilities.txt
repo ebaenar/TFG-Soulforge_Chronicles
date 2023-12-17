@@ -10,19 +10,19 @@ Description = Cada dos turnos, se cura un porcentaje de vida.
 #-------------------------------
 [FROZENDARKFIRE]
 Name = Llama negra congelada
-Description = Aumenta la potencia de los movimientos de Fuego y Hielo. Invoca una tormenta de nieve y aumenta su precisión mientras esté la tormenta.
+Description = Potencia de los movimientos de Fuego y Hielo. Invoca granizo y aumenta su precisión.
 #-------------------------------
 [GAELRESILIENCE]
 Name = Resilencia
-Description = Recibes la mitad de daño de los movimientos supereficaces.
+Description = Recibes 1/2 de daño de movimientos supereficaces.
 #-------------------------------
 [DARKSOUL]
 Name = Alma Oscura
-Description = Reduces significativamente a Siniestro, Abisal y Luz debido al alma oscura.
+Description = Reduces significativamente a Siniestro, Abisal y Luz.
 #-------------------------------
 [WRATHDARKSOUL]
 Name = Ira del Alma Oscura
-Description = Cada turno, pierdes vida debido al alma oscura. Gran reducción de daño a Siniestro, Abisal y Luz.
+Description = Gran reducción de daño a Siniestro, Abisal y Luz a costa de vida por turno.
 #-------------------------------
 [JUDGEKNOWLEDGE]
 Name = Conocimiento

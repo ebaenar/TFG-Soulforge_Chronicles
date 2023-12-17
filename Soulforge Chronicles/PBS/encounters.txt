@@ -15,25 +15,25 @@ Land,30
     100,AISUTIAL,4,11
 #-------------------------------
 [094] # Cueva Cristal
-Cave,15
-    20,GLIPLI,7,15
+Cave,5
     40,AISUTIAL,6,16
     40,DINASTAE,7,16
+    20,GLIPLI,7,15
 #-------------------------------
 [096] # Cueva Cristal
-Cave,15
+Cave,5
+    50,DINASTAE,7,16
     40,GLIPLI,7,15
     10,AISUTIAL,6,16
-    50,DINASTAE,7,16
 #-------------------------------
 [097] # Cueva Cristal
-Cave,15
-    10,GLIPLI,7,15
-    10,AISUTIAL,6,16
+Cave,5
     80,DINASTAE,7,16
+    10,AISUTIAL,6,16
+    10,GLIPLI,7,15
 #-------------------------------
 [098] # Cueva Cristal
-Cave,15
-    10,GLIPLI,7,15
-    40,AISUTIAL,6,16
+Cave,5
     50,DINASTAE,7,16
+    40,AISUTIAL,6,16
+    10,GLIPLI,7,15

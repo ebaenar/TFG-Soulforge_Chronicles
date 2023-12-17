@@ -5226,7 +5226,7 @@ Flags = CanProtect,CanMirrorMove,Pulse
 Description = Utilizes the power of the terrain to attack. This move's type and power vary with the terrain.
 #-------------------------------
 [WEATHERBALL]
-Name = Weather Ball
+Name = Metereobola
 Type = NORMAL
 Category = Special
 Power = 50
@@ -5235,7 +5235,7 @@ TotalPP = 10
 Target = NearOther
 FunctionCode = TypeAndPowerDependOnWeather
 Flags = CanProtect,CanMirrorMove,Bomb
-Description = An attack move that varies in power and type depending on the weather.
+Description = Onda que cambia de tipo con el tiempo.
 #-------------------------------
 [ECHOEDVOICE]
 Name = Eco Voz
@@ -6872,7 +6872,7 @@ Target = NearOther
 FunctionCode = PoisonTarget
 Flags = CanProtect,CanMirrorMove
 EffectChance = 30
-Description = Apuñala al objetivo con una ajuga venenosa. Puede envenenar al objetivo
+Description = Apuñala al objetivo con una ajuga venenosa. Puede envenenar al objetivo.
 #-------------------------------
 [ACIDARMOR]
 Name = Armadura venen.

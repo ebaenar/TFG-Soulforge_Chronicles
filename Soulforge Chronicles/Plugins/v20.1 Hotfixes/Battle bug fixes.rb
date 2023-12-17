@@ -456,7 +456,7 @@ class Battle::Battler
       @battle.pbHideAbilitySplash(target)
       pbItemHPHealCheck
     else
-      msg = _INTL("¡{1} absorbió esencia vital del enemigo!", target.pbThis) if nil_or_empty?(msg)
+      msg = _INTL("¡Has absorbido la esencia vital de {1}!", target.pbThis) if nil_or_empty?(msg)
       @battle.pbDisplay(msg)
       if canHeal?
         amt = (amt * 1.3).floor if hasActiveItem?(:BIGROOT)

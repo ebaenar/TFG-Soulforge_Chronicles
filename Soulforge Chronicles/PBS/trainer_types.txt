@@ -297,7 +297,17 @@ BaseMoney = 60
 SkillLevel = 32
 #-------------------------------
 [GHOST]
-Name = Entrenador
+Name = Fantasma
+Gender = Male
+BaseMoney = 100
+#-------------------------------
+[GHOST2]
+Name = Fantasma
+Gender = Male
+BaseMoney = 100
+#-------------------------------
+[GHOST3]
+Name = Fantasma
 Gender = Male
 BaseMoney = 100
 #-------------------------------
@@ -306,3 +316,9 @@ Name = Entrenador
 Gender = Male
 BaseMoney = 100
 BattleBGM = Battle Jefe
+#-------------------------------
+[CAMPEONA]
+Name = Campeona
+Gender = Female
+BaseMoney = 100
+SkillLevel = 200

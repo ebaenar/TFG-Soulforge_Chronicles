@@ -1,7 +1,37 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[GHOST,Paco]
-LoseText = Ahora que hemos luchado, prueba los viales.
+[GHOST,Abismo]
+LoseText = ...
+Pokemon = FINDIGARL,63
+    Item = SITRUSBERRY
+Pokemon = FARCHANAL,63
+    Item = SITRUSBERRY
+Pokemon = HRASELVE,63
+    Item = SITRUSBERRY
+Pokemon = FINDIGARL,63
+    Item = SITRUSBERRY
+Pokemon = FARCHANAL,63
+    Item = SITRUSBERRY
+Pokemon = HRASELVE,63
+    Item = SITRUSBERRY
+#-------------------------------
+[GHOST2,Abismo]
+LoseText = ...
+Pokemon = FINDIGARL,63
+    Item = SITRUSBERRY
+Pokemon = FARCHANAL,63
+    Item = SITRUSBERRY
+Pokemon = HRASELVE,63
+    Item = SITRUSBERRY
+Pokemon = FINDIGARL,63
+    Item = SITRUSBERRY
+Pokemon = FARCHANAL,63
+    Item = SITRUSBERRY
+Pokemon = HRASELVE,63
+    Item = SITRUSBERRY
+#-------------------------------
+[GHOST3,Abismo]
+LoseText = ...
 Pokemon = FINDIGARL,63
     Item = SITRUSBERRY
 Pokemon = FARCHANAL,63
@@ -106,3 +136,12 @@ Pokemon = FURNEL,17
 [BURGLAR,Emilio,2]
 LoseText = ...
 Pokemon = HRAGI,17
+#-------------------------------
+[CAMPEONA,Hirikal]
+LoseText = Al fin... Libre de esta maldición.
+Pokemon = FURNEL,23
+Pokemon = HRALEM,23
+Pokemon = FINDIGARL,24
+Pokemon = APHONORIX,23
+Pokemon = GESLULI,23
+Pokemon = MARGDLE,22
