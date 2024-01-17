@@ -7,6 +7,17 @@ Intrucciones:
 -Clicar en Game.exe  
 -¡Disfrutar!  
 
+
+Estructura del proyecto:
+
+-Audio: Carpeta donde se encuentran los diferentes sonidos del juego como música (Audio/BGM), efectos de sonido para el fondo (Audio/BGS), efectos musicales (Audio/ME) y efectos de sonido (Audio/SE).
+
+-Data: Carpeta donde se encuentran los datos de los mapas, animaciones y scripts.
+
+-Graphics: Carpeta que alberga los gráficos de animaciones, objetos, monstruos, tiles del juego...
+
+-PBS: Carpeta donde se definen los objetos, protagonistas, monstruos, combates...
+
 Versión 1.0.0  
 
 -Añadido pantalla de título, menús, intro.  
